@@ -12,6 +12,10 @@ import java.util.List;
 
 import static java.util.Collections.emptyList;
 
+/**
+ * @deprecated Prefer {@link org.openrewrite.java.AddOrUpdateAnnotationAttribute}.
+ */
+@Deprecated
 public class AddAllocationSizeToSequenceGenerator extends Recipe {
 
     @Override
